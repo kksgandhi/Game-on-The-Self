@@ -3,6 +3,9 @@ extends KinematicBody2D
 export var MOVE_SPEED = 300
 
 func _physics_process(delta):
+  handle_movement(delta)
+
+func handle_movement(delta):
   var move_vec = Vector2()
   if Input.is_action_pressed("move_up"):
     move_vec.y -= 1
