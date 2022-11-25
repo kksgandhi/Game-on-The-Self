@@ -17,3 +17,6 @@ func handle_movement(delta):
     move_vec.x += 1
   move_vec = move_vec.normalized()
   move_and_collide(move_vec * MOVE_SPEED * delta)
+
+func enter_memory():
+  pass
