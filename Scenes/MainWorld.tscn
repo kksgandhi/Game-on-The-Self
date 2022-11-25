@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/MainWorld.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/sprites/denim.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/Memories/Memory.tscn" type="PackedScene" id=4]
 
 [node name="MainWorld" type="Node2D"]
 script = ExtResource( 1 )
@@ -22,3 +23,6 @@ margin_bottom = 1580.0
 texture = ExtResource( 3 )
 expand = true
 stretch_mode = 2
+
+[node name="Memory" parent="." instance=ExtResource( 4 )]
+position = Vector2( 259, 258 )
