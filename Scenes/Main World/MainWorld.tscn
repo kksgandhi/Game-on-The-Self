@@ -1,14 +1,14 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scripts/MainWorld.gd" type="Script" id=1]
-[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Assets/sprites/denim.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/Memories/Memory.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Main World/MainWorld.gd" type="Script" id=1]
+[ext_resource path="res://Assets/sprites/denim.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Memories/Memory.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Player/Player.tscn" type="PackedScene" id=4]
 
 [node name="MainWorld" type="Node2D"]
 script = ExtResource( 1 )
 
-[node name="Player" parent="." instance=ExtResource( 2 )]
+[node name="Player" parent="." instance=ExtResource( 4 )]
 position = Vector2( 458, 211 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
@@ -20,9 +20,9 @@ margin_left = -500.0
 margin_top = -500.0
 margin_right = 2420.0
 margin_bottom = 1580.0
-texture = ExtResource( 3 )
+texture = ExtResource( 2 )
 expand = true
 stretch_mode = 2
 
-[node name="Memory" parent="." instance=ExtResource( 4 )]
+[node name="Memory" parent="." instance=ExtResource( 3 )]
 position = Vector2( 259, 258 )

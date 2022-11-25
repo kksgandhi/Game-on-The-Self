@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="On The Self"
-run/main_scene="res://Scenes/MainWorld.tscn"
+run/main_scene="res://Scenes/Main World/MainWorld.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
