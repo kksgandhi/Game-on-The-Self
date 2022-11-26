@@ -23,6 +23,9 @@ margin_bottom = 1580.0
 texture = ExtResource( 2 )
 expand = true
 stretch_mode = 2
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Memories" type="Node" parent="."]
 

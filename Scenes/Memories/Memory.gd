@@ -15,3 +15,5 @@ func _on_Memory_body_exited(_body):
 func _process(_delta):
   if isMemoryActive and Input.is_action_just_pressed("ui_accept"):
     print(dialogicTimeline)
+    var new_dialog = Dialogic.start(dialogicTimeline)
+    add_child(new_dialog)
