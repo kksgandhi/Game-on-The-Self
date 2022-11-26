@@ -1,6 +1,6 @@
 extends Area2D
 
-export var scene = ""
+export var dialogicTimeline = ""
 
 var isMemoryActive = false
 
@@ -14,4 +14,4 @@ func _on_Memory_body_exited(_body):
 
 func _process(_delta):
   if isMemoryActive and Input.is_action_just_pressed("ui_accept"):
-    print(scene)
+    print(dialogicTimeline)

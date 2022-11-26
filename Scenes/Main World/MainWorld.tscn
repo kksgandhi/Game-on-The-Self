@@ -28,12 +28,12 @@ stretch_mode = 2
 
 [node name="FirstMemory" parent="Memories" instance=ExtResource( 3 )]
 position = Vector2( 162, 154 )
-scene = "FirstMemory"
+dialogicTimeline = "firstMemory"
 
 [node name="ThirdMemory" parent="Memories" instance=ExtResource( 3 )]
 position = Vector2( 373, 439 )
-scene = "ThirdMemory"
+dialogicTimeline = "thirdMemory"
 
 [node name="SecondMemory" parent="Memories" instance=ExtResource( 3 )]
 position = Vector2( 782, 288 )
-scene = "SecondMemory"
+dialogicTimeline = "secondMemory"
