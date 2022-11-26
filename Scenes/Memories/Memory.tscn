@@ -4,14 +4,13 @@
 [ext_resource path="res://Scenes/Memories/Memory.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 18.5, 19 )
+extents = Vector2( 88.5, 84.5 )
 
 [node name="Memory" type="Area2D"]
 input_pickable = false
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.5, 1 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -19,3 +18,4 @@ scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 1 )
 
 [connection signal="body_entered" from="." to="." method="_on_Memory_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_Memory_body_exited"]

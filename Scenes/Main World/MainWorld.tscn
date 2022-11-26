@@ -24,5 +24,16 @@ texture = ExtResource( 2 )
 expand = true
 stretch_mode = 2
 
-[node name="Memory" parent="." instance=ExtResource( 3 )]
+[node name="Memories" type="Node" parent="."]
+
+[node name="FirstMemory" parent="Memories" instance=ExtResource( 3 )]
 position = Vector2( 162, 154 )
+scene = "FirstMemory"
+
+[node name="ThirdMemory" parent="Memories" instance=ExtResource( 3 )]
+position = Vector2( 373, 439 )
+scene = "ThirdMemory"
+
+[node name="SecondMemory" parent="Memories" instance=ExtResource( 3 )]
+position = Vector2( 782, 288 )
+scene = "SecondMemory"
