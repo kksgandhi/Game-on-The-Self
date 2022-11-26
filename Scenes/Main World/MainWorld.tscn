@@ -25,4 +25,4 @@ expand = true
 stretch_mode = 2
 
 [node name="Memory" parent="." instance=ExtResource( 3 )]
-position = Vector2( 288, 226 )
+position = Vector2( 162, 154 )
