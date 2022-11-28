@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1669235907.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is a story about Stanley"
+		},
+		{
+			"change_scene": "res://Scenes/Main World/MainWorld.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669664201.json",
+		"name": "Introduction"
+	}
+}
