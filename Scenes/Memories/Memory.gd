@@ -13,7 +13,11 @@ func _on_Memory_body_exited(_body):
   $Sprite.scale = Vector2(0.3, 0.3)
 
 func _process(_delta):
-  if isMemoryActive and Input.is_action_just_pressed("ui_accept"):
-    print(dialogicTimeline)
+  if          isMemoryActive                                        \
+      and not Global.isTimeLineActive                               \
+      and     Input.is_action_just_pressed("ui_accept"):
+
     var new_dialog = Dialogic.start(dialogicTimeline)
+    new_dialog.connect("timeline_end", Global, "_on_timeline_end")
     add_child(new_dialog)
+    Global.timeline_start(dialogicTimeline)

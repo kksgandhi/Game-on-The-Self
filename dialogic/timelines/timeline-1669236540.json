@@ -5,6 +5,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You've triggered the First Memory"
+		},
+		{
+			"emit_signal": "boop",
+			"event_id": "dialogic_040"
 		}
 	],
 	"metadata": {
