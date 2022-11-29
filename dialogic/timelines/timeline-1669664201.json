@@ -4,7 +4,7 @@
 			"character": "character-1669235907.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "This is a story about Stanley"
+			"text": "Who are you? Not your name, but your identity. Your essence.\n\nThis game breaks down conceptions of the self, pointing out how the things we think of as forming ourself, may not actually be relevant in the end.\n\nYou play as a character who's lost themselves, going around to various memories and questioning what relevance those memories have to who they are."
 		},
 		{
 			"change_scene": "res://Scenes/Main World/MainWorld.tscn",
