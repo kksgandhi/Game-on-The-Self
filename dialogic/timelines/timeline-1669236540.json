@@ -4,7 +4,7 @@
 			"character": "character-1669235907.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You've triggered the First Memory"
+			"text": "Is it my base instincts that make me? My fear, happiness, anger?\n\nNo, it can't be. I can't control when something surprises and shocks me, when a tickle makes me laugh."
 		},
 		{
 			"emit_signal": "boop",

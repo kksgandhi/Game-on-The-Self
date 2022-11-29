@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You've triggered the third memory"
+			"text": "I played guitar a few years ago, went to rock concerts and everything. Is it the stuff I like that makes me who I am?\n\nBut you know, I always wondered... why couldn't I just magically make myself like all music? I always hated christmas music, plugged my ears when they would play it. Wouldn't it be easier to just like christmas music too?\n\nIf I can't choose to like things, it has to be out of my control, and if it's out of my control, then it's not really me, is it?"
 		},
 		{
 			"emit_signal": "hello",

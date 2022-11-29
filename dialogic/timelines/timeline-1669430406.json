@@ -4,7 +4,7 @@
 			"character": "character-1669235907.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You've triggered the Second Memory"
+			"text": "Is it control over my body? The fact that I can choose to move my hands, stomp my feet?\n\nThe brain decides what muscles to move before we're even consciously aware of anything though. I can't shake the feeling that maybe our feeling of choice is a narrative...\n\nA narrative we assign after something abstract has made our decisions for us. A narrative we tell ourselves to keep ourselves sane."
 		},
 		{
 			"emit_signal": "boop",
